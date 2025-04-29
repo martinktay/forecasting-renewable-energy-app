@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-wind"></i> Wind Energy Power Prediction</h1>
+            <p class="subtitle">Forecast renewable energy production for your desired timeframe</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="form-container">
+                    <h2>Select Prediction Timeframe</h2>
+                    <p class="info-text">
+                        <i class="fas fa-info-circle"></i>
+                        Last recorded date is 01/04/2020. Prediction accuracy decreases with longer forecast periods.
+                    </p>
+                    <form method='POST'>
+                        <div class="form-group">
+                            <label for="from-date">From date:</label>
+                            <input type="date" id="from-date" name="fd" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="to-date">To date:</label>
+                            <input type="date" id="to-date" name="td" required>
+                        </div>
+                        <button type="submit" class="predict-btn">
+                            <i class="fas fa-chart-line"></i> Generate Prediction
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="results-container">
+                <h2>Prediction Results</h2>
+                <div class="chart-container">
+                    <img src='static/output.png' alt="Wind Energy Prediction Chart" class="prediction-chart">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Wind Energy Prediction Tool</p>
+        </footer>
+    </div>
+</body>
+</html>
