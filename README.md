@@ -145,6 +145,7 @@ _Impact of wind direction on power generation_
 #### Short-term Forecasting (24-48 hours)
 
 ![Short Term Prediction](assets/short_term.jpg)
+
 _Model performance on short-term predictions showing actual vs predicted values_
 
 - High accuracy (MAPE < 5%)
@@ -154,6 +155,7 @@ _Model performance on short-term predictions showing actual vs predicted values_
 #### Long-term Forecasting (1-2 months)
 
 ![Long Term Forecast](assets/long_term.jpg)
+
 _Extended forecast showing predicted power generation patterns_
 
 - Moderate accuracy (MAPE < 15%)
