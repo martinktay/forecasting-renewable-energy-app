@@ -51,6 +51,7 @@ The analysis utilises a comprehensive wind turbine dataset containing various se
 #### Feature Correlations
 
 ![Correlation Matrix](assets/correlation_matrix.jpg)
+
 _Comprehensive correlation analysis of turbine parameters_
 
 Our correlation analysis revealed several key relationships with Active Power generation:
@@ -80,6 +81,7 @@ The temporal analysis revealed several interesting patterns:
 1. **Wind Speed vs Power Production**
 
 ![Wind Speed vs Power](assets/wind_speed_power.jpg)
+
 _Relationship between wind speed and active power production over time_
 
 - Strong daily and seasonal patterns
@@ -89,6 +91,7 @@ _Relationship between wind speed and active power production over time_
 2. **Wind Direction Impact**
 
 ![Wind Direction vs Power](assets/wind_direction_power.jpg)
+
 _Impact of wind direction on power generation_
 
 - Directional dependency of power generation
