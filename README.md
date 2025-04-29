@@ -5,7 +5,6 @@ A sophisticated Flask web application that leverages machine learning to forecas
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Technical Analysis](#technical-analysis)
 - [Data Insights](#data-insights)
 - [Model Development](#model-development)
